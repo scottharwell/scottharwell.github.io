@@ -532,7 +532,7 @@ nextcloud_cron.yml
 
 This process can take about five minutes to spin up all of the resources.  In particular, the SSL certificate request can take a minute or two itself.  So, be patient at this step and follow the `watch` command that you started at the beginning of this post.  When all pods are in a `Running` state, and your certificates show the ready state as `True`, then you should be able to access your nextcloud instance.
 
-Next, we need to [deploy Collabora Code][configuration-post].
+Next, we need to [deploy Collabora Code][collabora-post].
 
 [root-post]: {% post_url 2023-02-11-nextcloud-and-collabora-on-kubernetes %}
 [nextcloud-post]: {% post_url 2023-02-11-deploying-nextcloud-in-kubernetes %}
