@@ -401,7 +401,7 @@ metadata:
   name: collabora-ingress
   namespace: collabora
   annotations:
-    traefik.ingress.kubernetes.io/router.middlewares: collabora-redirect@kubernetescrd
+    traefik.ingress.kubernetes.io/router.middlewares: collabora-redirects@kubernetescrd
     traefik.ingress.kubernetes.io/router.entrypoints: web,websecure
     cert-manager.io/cluster-issuer: letsencrypt-aws
 spec:
