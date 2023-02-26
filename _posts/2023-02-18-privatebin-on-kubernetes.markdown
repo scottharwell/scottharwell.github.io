@@ -153,9 +153,5 @@ spec:
 Now, just apply all of the files to your cluster.  PrivateBin should be running in your cluster once the services start and the TLS certificate is issued.
 
 ```bash
-kubectl apply -f \
-pvc.yml \
-service.yml \
-ingress.yml \
-deployment.yml
+kubectl apply -f .
 ```
