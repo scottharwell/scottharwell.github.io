@@ -105,7 +105,7 @@ ansible-navigator run playbook_create_transit_network.yml \
 --extra-vars "priv_network_hosts_pattern=10.*"
 ```
 
-## Using the EE
+## Accessing the EE
 
 I keep a new version of the [EE on quay.io][quay-cloud-ee] whenever any of the collections within the EE are incremented.  This means that new builds happen regularly.  This also means that you can use this execution environment without having to build it yourself.  But, all of the files are on [GitHub][cloud-ee] if you're interested in building and extending the EE for your own use cases.
 
